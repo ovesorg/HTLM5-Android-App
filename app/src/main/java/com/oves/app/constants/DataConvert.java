@@ -14,7 +14,6 @@ public class DataConvert {
             if (b != null && b.length > 0) {
                 switch (valType) {
                     case 0:
-                        return ByteUtil.byte2int(new byte[]{0, 0, b[1], b[0]});
                     case 1:
                         return ByteUtil.byte2short(new byte[]{b[1], b[0]});
                     case 2:
